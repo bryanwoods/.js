@@ -9,7 +9,18 @@
     return callback;
   };
 
+  var hideTrends = function() {
+    $('.module.trends').hide();
+  };
+
+  var hideWhoToFollow = function() {
+    $('.module.wtf-module').hide();
+  };
+
   $(function() {
+    hideWhoToFollow();
+    hideTrends();
+
     hidePromoted(setInterval(function() {
       hidePromoted();
     }, 200));
