@@ -1,3 +1,4 @@
+// Open https://thestrangeloop.com/news/strange-loop-2012-video-schedule in Chrome
 (function() {
   var title = "The Higher Order Rubyist";
 
