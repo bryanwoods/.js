@@ -17,7 +17,7 @@
 
       setTimeout(function() {
         document.location.reload();
-      }, 60000);
+      }, 60000 * 5);
     }
   };
 
