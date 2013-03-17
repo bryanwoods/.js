@@ -2,7 +2,7 @@
 (function() {
   var title = "The Higher Order Rubyist";
 
-  videoAvailable = function(title) {
+  var videoAvailable = function(title) {
     return $('td a').filter(function(i, el) {
       return $(el).text() === title;
     }).length > 0;
