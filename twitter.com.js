@@ -17,9 +17,14 @@
     $('.module.wtf-module').hide();
   };
 
+  var hideGainMoreFollowers = function() {
+    $('.gain_followers_prompt').hide();
+  };
+
   $(function() {
     hideWhoToFollow();
     hideTrends();
+    hideGainMoreFollowers();
 
     hidePromoted(setInterval(function() {
       hidePromoted();
