@@ -26,7 +26,8 @@ $(function() {
   $('body').prepend(
     '<center>' +
       '<h1 style="color:red;">' +
-      "You'll be running a total of " + totalMileage() + " miles!" +
+      "You'll be running a total of " + totalMileage() + " miles " +
+      "over the course of " + allRuns().length + "runs!" +
       '</h1>' +
     '</center>'
   );
